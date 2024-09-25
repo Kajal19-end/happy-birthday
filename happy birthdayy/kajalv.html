@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 20px;
+        }
+        h1, h2, h3, h4 {
+            color: #ff69b4;
+        }
+        p {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color:#ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color:  #ff69b4;
+        }
+        .hidden {
+            display: none;
+        }
+        marquee {
+            width: 100%;
+            margin: 20px 0;
+        }
+        img {
+            border-radius: 10px;
+            margin: 0 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="page1" class="center">
+        <h1><i>HAPPY BIRTHDAY VIVEK! (Gudu🩷)</i></h1>
+        <p><i>Happy Birthday Vivek!!!💗<br>
+            I wish I was there with you on your birthday, but sadly I am not. Oneday, we will celebrate together for sure. For now, I did whatever I could. I hope you liked my chotu sa surprise. Special thanks to your friends; they are great and the best ones.<br>
+            I wanted to give you some handmade stuff, but it is not possible for now. Whatever I learned in UNI, I tried to create something for you. Can't give you physical handmade stuff, but virtually I can (IT Rizz).<br>
+            I know I am not that pro, but still, whatever I made, I made it with love. Hope you like it. Also, there is a little audio attached to it; do listen to it. You mean a lot to me.<br>
+            Love you! Thank you for always being there for me! Enjoy your day! Happy Birthday once again!!🩷</i></p>
+    </div>
+    <div class="center">
+        <h2>Memories which we have made till now and will continue to make it💗</h2>
+        <button onclick="document.getElementById('video').classList.toggle('hidden')">Tap to play</button>
+        <video id="video" class="hidden" controls src="./bir.mp4" width="550" height="400"></video>
+    </div>
+    <h2 class="center">Our clicks!</h2>
+    <div class="center">
+        <button onclick="document.getElementById('marquee').classList.toggle('hidden')">Cuties</button>
+        <marquee id="marquee" class="hidden" scrollamount="15">
+            <img src="./dfgd.jpg" height="200" width="200">
+            <img src="./dww.jpg" height="200" width="150">
+            <img src="./qkq.jpg" height="200" width="150">
+            <img src="./quq.jpg" height="200" width="150">
+            <img src="./dw.jpg" height="200" width="250">
+            <img src="./uhdq.jpg" height="200" width="150">
+            <img src="./r3rw.jpg" height="200" width="250">
+            <img src="./djw.jpg" height="200" width="150">
+            <img src="./W.jpg" height="200" width="250">
+            <img src="./oqw.jpg" height="200" width="150">
+            <img src="./dwwd.jpg" height="200" width="250">
+        </marquee>
+    </div>
+    <div class="center">
+        <h2>A little Message For you...🩷</h2>
+        <button onclick="document.getElementById('audio').classList.toggle('hidden')">Appreciation time!</button>
+        <audio id="audio" class="hidden" controls src="./vivo.opus"></audio>
+
+    </div>
+         <p><i> Once again Happy Birthday Bachaa!!💗
+        <br>Hmesha khush rho or rondu mt bna kro acha nhi lgta yr or hn aaj mandir chle jana kripa krke or ghum ke aana akele room
+        pai baithe rhe toh acha nhi hoga smjhe n🙂 Baki Enjoy your cake.Bye Bye!!
+        (Kaise lge batman and spiderman😂)
+    </i></p>
+</body>
+</html>
